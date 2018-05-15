@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CybUtils">
+      <UniqueIdentifier>{8ef523a6-b840-4e64-9990-2cdabddf9b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CybUtils\mf">
+      <UniqueIdentifier>{3502faf8-91fd-4c23-86ba-427f866b5839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CybView">
+      <UniqueIdentifier>{e3a0d377-2190-4ea1-ac65-741cf308b981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CybAssess">
+      <UniqueIdentifier>{37393829-7c56-4076-8563-a107744114f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mfMacros.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBase.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfCell.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMesh.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBinaryIO.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBoundaryCellCIterator2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfIterator.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBoundaryCellIterator2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfCellsIterator.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfHexaCell.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfHybridCell2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfQuadCell.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfSing.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfEdgeStarIterator3D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfEdgeStarIteratorTetra.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfEdgesIterator.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfGeometric2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfSearchDIDO.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMfReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfWriter.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVerticesIterator.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMfWriter.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshOper.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMesh2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertex.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIterator2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIterator3D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIteratorHybridSurf.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIteratorQuadSurf.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIteratorTetra.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexStarIteratorTriSurf.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTriCell.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTopology.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMesh3D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshHexa.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshHybridSurface.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshNOSurface.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshQuadSurface.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshTetra.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMeshTriSurf.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfSingularVertex.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfKdTree.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfOffReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfOffWriter.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPlyReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPolyDataReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPolyDataWriter.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTetraCell.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTraits.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVtkReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVtkWriter.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfWrlReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfX3dReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfXmlParser.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPgReader.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="mfDelaunay2D.h">
+      <Filter>CybUtils\mf</Filter>
+    </ClInclude>
+    <ClInclude Include="cybVectorND.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybVertex.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybTraits.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybTriCell.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybTetraCell.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMesh.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMenuNode.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMenu.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybBoxDrawer.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybBoxHolder.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMatrix.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybShader.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybShaderManager.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybLight.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMaterial.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybCamera.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybGlutWindow.h">
+      <Filter>CybView</Filter>
+    </ClInclude>
+    <ClInclude Include="cybVertexArrayObject.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybVertexBufferObject.h">
+      <Filter>CybUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="cybAssess.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybAssessIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybBayesianNetwork.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybInfoNode.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyProbability.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyBetaNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyBetaNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyBinomialNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyBinomialNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyExponentialNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyExponentialNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyGammaNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyGammaNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyGaussianNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyGaussianNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyPoissonNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybFuzzyPoissonNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybGammaNaiveBayes.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybGammaNaiveBayesIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybGaussian.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybGaussianIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMLM.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybMLMIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybNetworkIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybProbabilityFuzzyParameters.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybPoissonFuzzyParameters.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybPoissonFuzzyParametersIO.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybAssessDataProvider.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+    <ClInclude Include="cybAssessLinker.h">
+      <Filter>CybAssess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cybMenuNode.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybMenu.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybBoxHolder.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybShader.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybShaderManager.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybLight.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybMaterial.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybCamera.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybGlutWindow.cpp">
+      <Filter>CybView</Filter>
+    </ClCompile>
+    <ClCompile Include="cybVertexArrayObject.cpp">
+      <Filter>CybUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="cybAssess.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybAssessIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybBayesianNetwork.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyProbability.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyBetaNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyBetaNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyBinomialNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyBinomialNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyExponentialNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyExponentialNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyGammaNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyGammaNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyGaussianNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyGaussianNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyPoissonNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybFuzzyPoissonNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybGammaNaiveBayes.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybGammaNaiveBayesIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybGaussian.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybGaussianIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybMLM.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybMLMIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybNetworkIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybProbabilityFuzzyParameters.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybPoissonFuzzyParameters.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybPoissonFuzzyParametersIO.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybAssessDataProvider.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+    <ClCompile Include="cybAssessLinker.cpp">
+      <Filter>CybAssess</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
